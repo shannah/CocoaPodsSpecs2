@@ -30,7 +30,9 @@ Vidyo iOS SDK (unofficial)
 
   s.preserve_paths = [
 	"VidyoClient-iOSSDK/lib/ios/*.framework",
-    	"VidyoClient-iOSSDK/lib/ios/*.a"
+    	"VidyoClient-iOSSDK/lib/ios/*.a",
+	"VidyoClient-iOSSDK/lib/ios/**/*.h",
+	"VidyoClient-iOSSDK/lib/ios/**/*.m",
   ]
 
   s.frameworks =  [

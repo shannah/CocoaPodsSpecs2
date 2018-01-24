@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Vidyo'
-  s.version          = '4.1.19.7'
+  s.version          = '4.1.15.7'
   s.summary          = 'Vidyo iOS SDK'
 
 # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ Vidyo iOS SDK (unofficial)
   s.homepage         = 'https://developer.vidyo.io/documentation/latest'
   s.license          = { :type => 'Copyright', :text => 'Copyright 2018 Vidyo' }
   s.author           = { 'dwild' => 'wild.dominic@gmail.com' }
-  s.source           = { :http => 'https://static.vidyo.io/latest/package/VidyoClient-iOSSDK.zip' }
+  s.source           = { :http => 'https://static.vidyo.io/4.1.15.7/package/VidyoClient-iOSSDK.zip' }
 
   s.ios.deployment_target = '8.0'
 
@@ -70,8 +70,8 @@ Vidyo iOS SDK (unofficial)
 	"VidyoClient-iOSSDK/lib/ios/libcrypto.a",
 	"VidyoClient-iOSSDK/lib/ios/libopus.a",
 	"VidyoClient-iOSSDK/lib/ios/libspeex.a",
+	"VidyoClient-iOSSDK/lib/ios/libspeexdsp.a",
 	"VidyoClient-iOSSDK/lib/ios/libsrtp.a",
-	"VidyoClient-iOSSDK/lib/ios/libssl.a",
 	"VidyoClient-iOSSDK/lib/ios/libssl.a",
 	"VidyoClient-iOSSDK/lib/ios/libVidyoClient.a"
   ]

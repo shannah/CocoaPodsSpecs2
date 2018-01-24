@@ -28,6 +28,11 @@ Vidyo iOS SDK (unofficial)
 
   s.ios.deployment_target = '8.0'
 
+  s.source_files = [
+	"VidyoClient-iOSSDK/lib/ios/VidyoClientIOS.framework/**/*.h",
+	"VidyoClient-iOSSDK/lib/ios/VPX.framework/**/*.h"
+  ]
+
   s.public_header_files = [
 	"VidyoClient-iOSSDK/lib/ios/VidyoClientIOS.framework/**/*.h",
 	"VidyoClient-iOSSDK/lib/ios/VPX.framework/**/*.h"

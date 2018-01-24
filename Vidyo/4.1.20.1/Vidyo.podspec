@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Vidyo'
-  s.version          = '4.1.19.8'
+  s.version          = '4.1.20.1'
   s.summary          = 'Vidyo iOS SDK'
 
 # This description is used to generate tags and improve search results.

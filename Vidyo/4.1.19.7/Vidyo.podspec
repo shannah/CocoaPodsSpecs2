@@ -24,7 +24,7 @@ Vidyo iOS SDK (unofficial)
   s.homepage         = 'https://developer.vidyo.io/documentation/latest'
   s.license          = { :type => 'Copyright', :text => 'Copyright 2018 Vidyo' }
   s.author           = { 'dwild' => 'wild.dominic@gmail.com' }
-  s.source           = { :http => 'https://static.vidyo.io/latest/package/VidyoClient-iOSSDK.zip' }
+  s.source           = { :http => 'http://files.dwild.net/VidyoClient-iOSSDK.zip' }
 
   s.ios.deployment_target = '8.0'
 
